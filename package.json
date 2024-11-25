@@ -6,16 +6,35 @@
         "dev": "vite"
     },
     "devDependencies": {
+        "@iconify/vue": "^4.1.2",
         "@inertiajs/vue3": "^1.0.0",
+        "@tailwindcss/container-queries": "^0.1.0",
         "@tailwindcss/forms": "^0.5.3",
+        "@tailwindcss/typography": "^0.5.9",
         "@vitejs/plugin-vue": "^5.0.0",
         "autoprefixer": "^10.4.12",
         "axios": "^1.7.4",
+        "browser-sync": "^2.27.10",
         "concurrently": "^9.0.1",
+        "cssnano": "^5.1.15",
+        "gulp": "^4.0.2",
+        "gulp-clean": "^0.4.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-file-include": "^2.3.0",
+        "gulp-postcss": "^9.0.1",
+        "gulp-sass": "^5.1.0",
         "laravel-vite-plugin": "^1.0",
         "postcss": "^8.4.31",
+        "prettier": "^2.8.4",
+        "prettier-plugin-tailwindcss": "^0.2.3",
+        "sass": "^1.58.1",
         "tailwindcss": "^3.2.1",
         "vite": "^5.0",
         "vue": "^3.4.0"
+    },
+    "dependencies": {
+        "flowbite": "^2.5.2",
+        "flowbite-vue": "^0.1.6"
     }
 }
